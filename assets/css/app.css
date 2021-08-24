@@ -1,0 +1,971 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand img {
+  width: 200px;
+  height: auto;
+}
+
+header {
+  width: 100%;
+}
+
+.bg-svg {
+    width: 100%;
+}
+
+.z-m99 {
+    z-index: -99;
+}
+
+#konten-banner {
+  width: 100%;
+  height: 100vh;
+}
+
+#konten-banner h1 {
+  font-size: 40pt;
+}
+
+#konten-banner a {
+  color: white;
+  font-weight: 500;
+}
+
+#konten-banner a.register {
+  margin-left: 10px;
+}
+
+#konten-banner .read,
+#paket a {
+  background-color: #ef822d;
+}
+
+#konten-banner .register,
+#daftar .register {
+  background-color: #000;
+}
+
+#orderan {
+  padding-top: 200px;
+  padding-bottom: 80px;
+}
+
+#orderan h1,
+#kabar h1,
+#aplikasi h1,
+#daftar h1,
+#dapat h1 {
+  font-size: 31pt;
+}
+
+#orderan h1 span,
+#sociolize h1 span,
+#daftar h1 span,
+#dapat h1 span {
+  color: #ef822d;
+}
+
+#orderan p {
+  font-size: 22pt;
+  color: grey;
+}
+
+#orderan p span {
+  color: #000;
+  font-weight: bold;
+  font-size: 22pt;
+}
+
+#sociolize,
+#kabar,
+#aplikasi,
+#penting,
+#dapat {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#sociolize .bg-grad {
+  background-image: url('../img/bg_gradient.png');
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+#sociolize p.gradient {
+  font-size: 16pt;
+  font-weight: 600;
+  color: white;
+}
+
+#sociolize .flow {
+  padding-top: 160px;
+}
+
+.flow h3 {
+  font-size: 14pt;
+  font-weight: 700;
+}
+
+.flow p {
+  font-size: 12pt;
+  color: grey;
+}
+
+#kabar p,
+#aplikasi p,
+#daftar p {
+  font-size: 16pt;
+  color: grey;
+}
+
+#kabar img {
+  width: 80%;
+}
+
+#penting {
+  height: 100vh;
+}
+
+#penting h1 {
+  font-size: 33pt;
+  font-weight: bold;
+  color: white;
+}
+
+#penting p {
+  font-size: 15pt;
+  color: white;
+}
+
+#penting img.bg-penting {
+  width: 100%;
+  height: 80vh;
+}
+
+#penting img.phone {
+  margin-top: 100px;
+  width: 100%;
+  height: 100vh;
+  transform: rotate(-360deg);
+}
+
+#daftar {
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 80px;
+}
+
+#paket {
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  background-color: rgb(112, 95, 173);
+}
+
+#paket h1 {
+  font-size: 30pt;
+  font-weight: 600;
+}
+
+#dapat h3 {
+  font-size: 14pt;
+  font-weight: 700;
+}
+
+.text-white {
+  color: #fff;
+}
+
+@media screen and (max-width: 280px) {
+  #konten-banner a.read,
+  #konten-banner a.register,
+  #sociolize p.gradient {
+    font-size: 7pt !important;
+  }
+
+  #konten-banner a.register {
+    margin-left: 0;
+  }
+
+  .bg-svg {
+    max-width: 100% !important;
+    height: 90vh !important;
+  }
+
+  #penting img.bg-penting {
+    height: 60vh !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  header img.bg-svg {
+    height: 100vh !important;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  header .mt-5 {
+    margin-top: 2rem !important;
+  }
+
+  #konten-banner .row {
+    justify-content: center;
+  }
+
+  #penting img.bg-penting {
+    height: 60vh;
+  }
+
+  #penting .row {
+    text-align: center;
+  }
+
+  #penting img.phone {
+    display: none;
+  }
+
+  #daftar {
+    padding-top: 0px;
+  }
+
+  #daftar .img-fluid {
+    max-width: 70%;
+  }
+
+  #paket {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #paket h1 {
+    font-size: 9pt !important;
+  }
+
+  .pb-5 {
+    padding-bottom: 1.5rem !important;
+  }
+
+  #kabar p, #aplikasi p, #daftar p {
+    font-size: 8pt !important;
+  }
+
+  .flow p {
+    font-size: 9pt !important;
+  }
+
+  #aplikasi .img-fluid,
+  #orderan .img-fluid {
+    max-width: 80%;
+  }
+
+  /* .pl-5, .px-5 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important; 
+  } */
+
+  #ordearn .mb-5, .my-5 {
+    margin-bottom: 0 !important;
+  }
+
+  #orderan p {
+    font-size: 11pt !important;
+  }
+
+  header .img-fluid {
+    width: 100% !important;
+  }
+
+  header img.bg-svg {
+    height: 100vh;
+  }
+
+  header .w-100 {
+    width: 80% !important;
+    padding-top: 70px;
+  }
+
+  header .row {
+    text-align: center;
+  }
+
+  p.gradient {
+    font-size: 9pt !important;
+    padding-left: .3rem !important;
+    padding-right: .3rem !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header .mt-5 {
+    margin-top: 2rem !important;
+  }
+
+  header img.bg-svg {
+    height: 90vh !important;
+  }
+
+  #konten-banner .row {
+    justify-content: center;
+  }
+
+  #penting {
+    height: 70vh;
+  }
+
+  #penting img.bg-penting {
+    height: 50vh !important;
+  }
+
+  #penting .row {
+    text-align: center;
+  }
+
+  #penting img.phone {
+    display: none;
+  }
+
+  #daftar {
+    padding-top: 0px;
+  }
+
+  #daftar .img-fluid {
+    max-width: 70%;
+  }
+
+  #paket {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #paket h1 {
+    font-size: 9pt !important;
+  }
+
+  .pb-5 {
+    padding-bottom: 1.5rem !important;
+  }
+
+  #kabar p, #aplikasi p, #daftar p {
+    font-size: 8pt !important;
+  }
+
+  .flow p {
+    font-size: 9pt !important;
+  }
+
+  #aplikasi .img-fluid,
+  #orderan .img-fluid {
+    max-width: 80%;
+  }
+
+  /* .pl-5, .px-5 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important; 
+  } */
+
+  #ordearn .mb-5, .my-5 {
+    margin-bottom: 0 !important;
+  }
+
+  #orderan p {
+    font-size: 11pt !important;
+  }
+
+  header .img-fluid {
+    width: 100% !important;
+  }
+
+  header img.bg-svg {
+    height: 100vh;
+  }
+
+  header .w-100 {
+    width: 80% !important;
+    padding-top: 70px;
+  }
+
+  header .row {
+    text-align: center;
+  }
+
+  p.gradient {
+    font-size: 9pt !important;
+    padding-left: .3rem !important;
+    padding-right: .3rem !important;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  header .mt-5 {
+    margin-top: 2rem !important;
+  }
+
+  header img.bg-svg {
+    height: 85vh !important;
+  }
+
+  #konten-banner .row {
+    justify-content: center;
+  }
+
+  #penting img.bg-penting {
+    height: 60vh;
+  }
+
+  #penting .row {
+    text-align: center;
+  }
+
+  #penting img.phone {
+    display: none;
+  }
+
+  #daftar {
+    padding-top: 0px;
+  }
+
+  #daftar .img-fluid {
+    max-width: 70%;
+  }
+
+  #paket {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #paket h1 {
+    font-size: 9pt !important;
+  }
+
+  .pb-5 {
+    padding-bottom: 1.5rem !important;
+  }
+
+  #kabar p, #aplikasi p, #daftar p {
+    font-size: 8pt !important;
+  }
+
+  .flow p {
+    font-size: 9pt !important;
+  }
+
+  #aplikasi .img-fluid,
+  #orderan .img-fluid {
+    max-width: 80%;
+  }
+
+  /* .pl-5, .px-5 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important; 
+  } */
+
+  #ordearn .mb-5, .my-5 {
+    margin-bottom: 0 !important;
+  }
+
+  #orderan p {
+    font-size: 11pt !important;
+  }
+
+  header .img-fluid {
+    width: 100% !important;
+  }
+
+  header img.bg-svg {
+    height: 100vh;
+  }
+
+  header .w-100 {
+    width: 80% !important;
+    padding-top: 70px;
+  }
+
+  header .row {
+    text-align: center;
+  }
+
+  p.gradient {
+    font-size: 9pt !important;
+    padding-left: .3rem !important;
+    padding-right: .3rem !important;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  header .mt-5 {
+    margin-top: 2rem !important;
+  }
+
+  header img.bg-svg {
+    height: 100vh;
+  }
+
+  #konten-banner .row {
+    justify-content: center;
+  }
+
+  #orderan h1 {
+    padding-top: 100px !important;
+  }
+
+  #penting {
+    height: 70vh;
+  }
+
+  #penting img.bg-penting {
+    height: 50vh !important;
+  }
+
+  #penting .row {
+    text-align: center;
+  }
+
+  #penting img.phone {
+    display: none;
+  }
+
+  #daftar {
+    padding-top: 0px;
+  }
+
+  #daftar .img-fluid {
+    max-width: 70%;
+  }
+
+  #paket {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #paket h1 {
+    font-size: 9pt !important;
+  }
+
+  .pb-5 {
+    padding-bottom: 1.5rem !important;
+  }
+
+  #kabar p, #aplikasi p, #daftar p {
+    font-size: 8pt !important;
+  }
+
+  .flow p {
+    font-size: 9pt !important;
+  }
+
+  #aplikasi .img-fluid,
+  #orderan .img-fluid {
+    max-width: 80%;
+  }
+
+  /* .pl-5, .px-5 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important; 
+  } */
+
+  #ordearn .mb-5, .my-5 {
+    margin-bottom: 0 !important;
+  }
+
+  #orderan p {
+    font-size: 11pt !important;
+  }
+
+  header .img-fluid {
+    width: 100% !important;
+  }
+
+  header img.bg-svg {
+    height: 100vh;
+  }
+
+  header .w-100 {
+    width: 80% !important;
+    padding-top: 70px;
+  }
+
+  header .row {
+    text-align: center;
+  }
+
+  p.gradient {
+    font-size: 9pt !important;
+    padding-left: .3rem !important;
+    padding-right: .3rem !important;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  header .mt-5 {
+    margin-top: 2rem !important;
+  }
+
+  #konten-banner .row {
+    justify-content: center;
+  }
+
+  #penting img.bg-penting {
+    height: 60vh;
+  }
+
+  #penting .row {
+    text-align: center;
+  }
+
+  #penting img.phone {
+    display: none;
+  }
+
+  #daftar {
+    padding-top: 0px;
+  }
+
+  #daftar .img-fluid {
+    max-width: 70%;
+  }
+
+  #paket {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  #paket h1 {
+    font-size: 9pt !important;
+  }
+
+  .pb-5 {
+    padding-bottom: 1.5rem !important;
+  }
+
+  #kabar p, #aplikasi p, #daftar p {
+    font-size: 8pt !important;
+  }
+
+  .flow p {
+    font-size: 9pt !important;
+  }
+
+  #aplikasi .img-fluid,
+  #orderan .img-fluid {
+    max-width: 80%;
+  }
+
+  /* .pl-5, .px-5 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important; 
+  } */
+
+  #ordearn .mb-5, .my-5 {
+    margin-bottom: 0 !important;
+  }
+
+  #orderan p {
+    font-size: 11pt !important;
+  }
+
+  header .img-fluid {
+    width: 100% !important;
+  }
+
+  header img.bg-svg {
+    height: 100vh;
+  }
+
+  header .w-100 {
+    width: 80% !important;
+    padding-top: 70px;
+  }
+
+  header .row {
+    text-align: center;
+  }
+
+  p.gradient {
+    font-size: 9pt !important;
+    padding-left: .3rem !important;
+    padding-right: .3rem !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    overflow-x: hidden !important;
+  }
+
+  #konten-banner {
+    height: auto;
+    padding-top: 50px;
+  }
+
+  #konten-banner img.logo {
+    width: 140px !important;
+  }
+
+  #konten-banner h1 {
+    font-size: 24pt !important;
+  }
+
+  #konten-banner a,
+  #paket a {
+    font-size: 6pt !important;
+    padding: 8px !important;
+  }
+
+  #daftar a {
+    font-size: 9pt !important;
+    padding: 10px !important;
+  }
+
+  #orderan h1,
+  #sociolize h1,
+  #kabar h1,
+  #aplikasi h1,
+  #penting h1,
+  #daftar h1,
+  #dapat h1 {
+    font-size: 20pt !important;
+  }
+
+  #orderan p {
+    font-size: 10pt !important;
+  }
+
+  #orderan p span {
+    font-size: 12pt !important;
+  }
+
+  #sociolize p.bg-gradient {
+    font-size: 9pt !important;
+  }
+
+  .flow h3 {
+    font-size: 12pt;
+  }
+
+  .flow p {
+    font-size: 10pt;
+  }
+
+  #kabar p,
+  #aplikasi p,
+  #daftar p {
+    font-size: 8pt !important;
+  }
+
+  #penting p  {
+    font-size: 8pt !important;
+  }
+
+  #penting img.phone {
+    margin-top: 50px !important;
+    width: 100%;
+    height: auto;
+    transform: rotate(-10deg);
+  }
+
+  /* #paket h1 {
+    font-size: 14pt !important;
+  } */
+
+  #dapat h3 {
+    font-size: 12pt;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  #konten-banner {
+    height: auto;
+    padding-top: 50px;
+  }
+
+  #konten-banner img.logo {
+    width: 180px;
+  }
+
+  #konten-banner h1 {
+    font-size: 20pt;
+  }
+
+  #orderan h1,
+  #sociolize h1,
+  #kabar h1,
+  #aplikasi h1,
+  #penting h1,
+  #daftar h1,
+  #dapat h1 {
+    font-size: 24pt;
+  }
+
+  #orderan p {
+    font-size: 18pt;
+  }
+
+  #orderan p span {
+    font-size: 19pt;
+  }
+
+  #sociolize p.bg-gradient {
+    font-size: 13pt;
+  }
+
+  .flow h3 {
+    font-size: 12pt;
+  }
+
+  .flow p {
+    font-size: 10pt;
+  }
+
+  #kabar p,
+  #aplikasi p,
+  #daftar p {
+    font-size: 13pt;
+  }
+
+  #penting p  {
+    font-size: 9pt;
+  }
+
+  #penting img.phone {
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    transform: rotate(-10deg);
+    margin-left: -12px !important;
+  }
+
+  #paket h1 {
+    font-size: 18pt;
+  }
+
+  #dapat h3 {
+    font-size: 12pt;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #konten-banner {
+    height: auto;
+    padding-top: 50px;
+  }
+
+  #konten-banner img.logo {
+    width: 180px;
+  }
+
+  #konten-banner h1 {
+    font-size: 20pt !important;
+  }
+
+  #konten-banner a,
+  #paket a {
+    font-size: 10pt !important;
+    padding: 10px !important;
+  }
+
+  #orderan h1,
+  #sociolize h1,
+  #kabar h1,
+  #aplikasi h1,
+  #penting h1,
+  #daftar h1,
+  #dapat h1 {
+    font-size: 24pt;
+  }
+
+  #orderan p {
+    font-size: 18pt;
+  }
+
+  #orderan p span {
+    font-size: 19pt;
+  }
+
+  #sociolize p.bg-gradient {
+    font-size: 13pt;
+  }
+
+  .flow h3 {
+    font-size: 12pt;
+  }
+
+  .flow p {
+    font-size: 10pt;
+  }
+
+  #kabar p,
+  #aplikasi p,
+  #daftar p {
+    font-size: 13pt;
+  }
+
+  #penting p  {
+    font-size: 9pt;
+  }
+
+  #penting img.phone {
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    transform: rotate(-10deg);
+    margin-left: -12px !important;
+  }
+
+  #paket h1 {
+    font-size: 18pt;
+  }
+
+  #dapat h3 {
+    font-size: 12pt;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #konten-banner {
+    height: auto;
+    padding-top: 50px;
+  }
+
+  #konten-banner img.logo {
+    width: 180px;
+  }
+
+  #konten-banner h1 {
+    font-size: 37pt;
+  }
+
+  #konten-banner a,
+  #paket a {
+    font-size: 9pt;
+    padding: 8px;
+  }
+
+  #orderan h1,
+  #sociolize h1,
+  #kabar h1,
+  #aplikasi h1,
+  #penting h1,
+  #daftar h1,
+  #dapat h1 {
+    font-size: 36pt;
+  }
+
+  #penting img.phone {
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+    transform: rotate(-10deg);
+    margin-left: -25px !important;
+  }
+
+  #penting img.bg-penting {
+    height: auto;
+  }
+}
